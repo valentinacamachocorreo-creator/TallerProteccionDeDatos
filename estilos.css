@@ -30,6 +30,7 @@ nav{
 }
 header{
     background-color: slategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 1%;
     text-align: center;
     font-size: 25px;
@@ -49,6 +50,38 @@ h2{
 }
 h3, h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imagenIntro{
+    width: 640px;
+    border: 3px, solid  slategray;
+    border-radius: 10px;
+    box-shadow:0px 4px 10px black;
+}
+.bloqueInicio{
+    background-color: rgb(228, 227, 227);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.bloqueInicio p{
+    font-size: 20px;
+}
+.bloqueSolo{
+    margin-left: -10%;
+}
+.introContenido{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.resumenIntro{
+    border: 2px solid black;
+    background-color: rgb(255, 253, 253);
+    padding: 15px;
+    border-radius: 10px;
+    width: 250;
+    margin-top: 3%;
 }
 img{
     width: 600px;
