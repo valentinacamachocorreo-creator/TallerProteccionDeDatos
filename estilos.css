@@ -169,7 +169,9 @@ h4{
     border-radius: 10px;
     border: 2px solid gray;
 }
+
 .formulario{
+   
     max-width: 600px;
     margin: 40px;
     padding: 30px;
@@ -177,7 +179,27 @@ h4{
     border-radius: 10px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
 }
+#encuesta{
+     background-color:  rgb(60, 71, 82);
+     padding: 20px;
+     margin: 10px;
+     border-radius: 10px;
+}
+.tituloEncuesta, .parafoEncuesta{
+    color:lightgray;
+}
  button{
     cursor: pointer;
+ }
+ .encuestaContenedor{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    
+ }
+ .video iframe{
+      border-radius: 10px;
+      margin-bottom: 20px;
+      
  }
 
