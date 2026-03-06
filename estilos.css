@@ -1,4 +1,11 @@
-
+nav{
+    border-top: 35px solid  slategray;
+    padding-top: 10px;
+}
+.barra{
+    display: flex;
+    align-items: center;
+}
 .menu{
     display: flex;
     justify-content: center;
@@ -19,15 +26,8 @@
     text-decoration: underline;
 }
 .logo {
-    width: 120px;
-    
+    width: 120px;  
 }
-.barra{
-    display: flex;
-    align-items: center;
-    
-}
-
 header{
     background-color: slategray;
     padding: 1%;
@@ -35,13 +35,15 @@ header{
     font-size: 25px;
     margin-top: 1%;
 }
-
+.contenedor{
+    width: 150%;
+    width: 75%;
+    margin-left: 10%;
+}
+p{
+    line-height: 1.6;
+}
 img{
     width: 600px;
-
 }
 
-nav{
-    border-top: 35px solid  slategray;
-    padding-top: 10px;
-}
