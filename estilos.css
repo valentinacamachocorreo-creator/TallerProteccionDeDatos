@@ -1,5 +1,5 @@
 nav{
-    border-top: 35px solid  slategray;
+    border-top: 60px solid  rgb(60, 71, 82);
     padding-top: 10px;
 }
 .barra{
@@ -29,6 +29,12 @@ nav{
     width: 120px;  
 }
 header{
+    background-image: url(tituloFondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
+    color: white;
     background-color: slategray;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 1%;
@@ -41,9 +47,7 @@ header{
     width: 75%;
     margin-left: 10%;
 }
-p{
-    line-height: 1.6;
-}
+
 h2{
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -82,6 +86,10 @@ h3, h4{
     border-radius: 10px;
     width: 250;
     margin-top: 3%;
+}
+p{
+    font-size: 18px;
+     line-height: 1.6;
 }
 img{
     width: 600px;
