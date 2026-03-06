@@ -162,8 +162,6 @@ h4{
     border-radius: 10px;
     border: 2px solid gray;
 }
-
-
 .bloqueConclu{
     background-color: rgb(228, 227, 227);
     padding: 20px;
@@ -171,5 +169,15 @@ h4{
     border-radius: 10px;
     border: 2px solid gray;
 }
-
+.formulario{
+    max-width: 600px;
+    margin: 40px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+ button{
+    cursor: pointer;
+ }
 
