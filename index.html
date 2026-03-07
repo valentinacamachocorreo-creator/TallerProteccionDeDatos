@@ -8,13 +8,46 @@
 </head>
 
 <body>
+    
+    <nav class="barra">
+        <img class="logo" src="logo.jpg" alt="logoArriba">
+        <ul class="menu">
+           <li><a href="#inicio">Inicio</a></li>
+           <li><a href="#proteccion">Proteccion de datos</a></li>
+           <li><a href="#GDPR">GDPR</a></li>
+           <li><a href="#LOPD">LOPD</a></li>
+           <li><a href="#principios">Principios de proteccion</a></li>
+           <li><a href="#derechos">Derechos de usuarios</a></li>
+           <li><a href="#importancia">Importancia</a></li>
+           <li><a href="#conclusion">Conclusion</a></li>
+           <li><a href="#encuesta">Encuesta</a></li>
+        </ul>
+    </nav>
+    
     <header>
         <h1>La Proteccion de Datos GDPR/LOPD</h1>
     </header>
-
-    <section>
+<div class="contenedor">
+    <div class="bloqueSolo">
+    <section class="bloqueInicio" id="inicio">
         <h2>Introduccion</h2>
+<<<<<<< HEAD
         <img src="img/Introduccion.jpg" alt="ImagenIntroduccion">
+=======
+        <div class="introContenido">
+        <img class="imagenIntro" src="Introduccion.jpg" alt="ImagenIntroduccion">
+        <div class="resumenIntro">
+        <h3>Que aprenderas en esta pagina?</h3>
+        <ul>
+            <li>Que es la proteccion de datos</li>
+            <li>Que es el GDPR</li>
+            <li>Cuales son los derechos de los usuarios</li>
+        </ul>
+        <h3>Dato importante</h3>
+        <p>Mas del 60% de los usuarios en internet han tenido problemas relacionados con el uso indebido de sus datos personales</p>
+        </div>
+        </div>
+>>>>>>> origin/feature-css
         <p>La <strong>proteccion de datos digitales</strong> se ha convertido en un aspecto fundamental en la era digital.
            Cada dia, millones de personas comparten <strong>informacion</strong> en internet a traves de sus <strong>redes sociales</strong>, 
            <strong>paginas en web</strong> y en diferentes <strong>servicios en linea.</strong> Debido a esto, es necesario garantizar que 
@@ -24,8 +57,8 @@
             de los ciudadanos en relacion con el tratamiento de los datos personales de cada individuo.
         </p>
     </section>
-
-    <section>
+</div>
+    <section id="proteccion">
         <h2>¿Qué es la protección de datos?</h2>
         <p>Es el conjunto de normas, medidas y practicas destinadas a garantizar que la <strong>informacion personal</strong> de las 
             personas sea tratada de manera segura, responsable y respetando la privacidad. Hoy en dia, gran aparte de nuestras actividades
@@ -52,7 +85,7 @@
         </p>
     </section>
 
-    <section>
+    <section id="GDPR">
         <h2>¿Que es el GDPR?</h2>
         <p>
          El <strong>Reglamento General de Protección de Datos</strong> (GDPR, por sus siglas en inglés) es una normativa de la <strong>Unión Europea</strong> que regula cómo 
@@ -63,6 +96,7 @@
            Gracias a esta normativa,  se promueve un uso mas etico y seguro de los datos personales, fortaleciendo la confianza de los usuarios en los servicios digitales 
            y en el tratamiendo de su informacion.
         </p>
+        <div class="bloqueGPDR">
         <h3>Cuando entro en vigor</h3>
         <p>El <strong>GPDR</strong> fue aprobado en el año 2016, pero comezco aplicarse oficialmente el <strong>25 de mayo de 2018.</strong> A apartir de esa fecha, todas las empresas
             y organizaciones que manejan <strong>Datos personales</strong> de ciudadanos de la <strong>Union Europedea</strong> deben cumplir con esta normativa
@@ -73,9 +107,12 @@
             <strong>Union Europedea</strong>, sin importar en que pais se encuentre la empresa. Estos significa que incluso compañias ubicadas fuera de Europa deben cumplir
             con el reglamento si ofrecen productos o servicios a personas que viven en la <strong>Union Europedea</strong> o si manejan su imformacion personal.
         </p>
-        <nav>
+        </div>
+        <nav class="navNObarra">
             <h4>Ejemplos</h4>
+            <div class="ejemEmpresas">
             <ul>
+<<<<<<< HEAD
                 <li><a href="https://concepto.de/google/">Google
                     <img src="img/google.jpg" alt="ImagenGoogle">
                 </a></li>
@@ -91,11 +128,25 @@
                 <li><a href="https://open.spotify.com/intl-es/">spotify
                     <img src="img/spotify.jpg" alt="ImagenSpotify">
                 </a></li>
+=======
+                <li><a href="https://concepto.de/google/">
+                    <img src="google.jpg" class="icono" alt="ImagenGoogle"></a></li>
+                <li><a href="https://www.meta.com/es-es/about/">
+                    <img src="meta.jpg" class="icono" alt="ImagenMeta"> </a></li>
+                <li><a href="https://www.amazon.com/-/es/">
+                    <img src="Amazon.jpg" class="icono" alt="ImagenAmazon"></a></li>
+                <li><a href="https://www.netflix.com/co/">
+                    <img src="netflix.jpg" class="icono" alt="ImagenNeflix"></a></li>
+                <li><a href="https://open.spotify.com/intl-es/">
+                    <img src="spotify.jpg" class="icono"
+                     alt="ImagenSpotify"></a></li>
+>>>>>>> origin/feature-css
             </ul>
+        </div>
         </nav>
     </section>
 
-    <section>
+    <section id="LOPD">
         <h2>Que es la LOPD</h2>
         <p>La <strong>LOPD</strong> o la ley <strong>Organizacion de proteccion de Datos,</strong>
         es una normativa que tiene como objetivo proteger la informacion personal de las personas y garantizar 
@@ -103,13 +154,11 @@
         y organizaciones pueden recopilar, almacenar y utilizar los datos personales de los ciudadanos, estableciendo 
         limites y limitaciones para evitar el uso indebido de la informacion. La <strong>LOPD</strong> busca asegurar 
         que la privacidad de personas sea respetada y que sus datos no sean utilizados sin su consentimiento.
-        </p>
-        <h3>Cuando entro en vigor?</h3>
-        <p>La versiones mas reciente de esta ley en España es la <strong>Ley Organica 3/2018</strong> de proteccion de 
+        La versiones mas reciente de esta ley en España es la <strong>Ley Organica 3/2018</strong> de proteccion de 
         datos personales y garantiza de los derechos digitales, que entro en vigor el <strong>6 de Diciembre de 2018.</strong>
         esta ley se creo para adaptar la legislacion española al reglamento general de proteccion de datos <strong>(GDPR)</strong>
-        de <strong>La Union Europea.</strong></p>
-       
+        de <strong>La Union Europea.</strong>
+        </p>
             <h4>Ejemplos</h4>
             <ul>
                 <li>Hospitales y centros de Salud</li>
@@ -120,7 +169,7 @@
             </ul>
     </section>
 
-    <section>
+    <section id="principios">
         <h2>Principios de la proteccion de datos</h2>
         <p>La <strong>Proteccion de datos</strong> personales se base en una serie de principos fundamentales que buscan
         garantizar que la informacion de las personas sea tratada de manera responsable, segura y respetando su privacidad.
@@ -150,8 +199,9 @@
        </p>
     </section>
 
-    <section>
+    <section id="derechos">
         <h2>Derechos de los usuarios</h2>
+<<<<<<< HEAD
         <img src="img/DerechosUsuarios.jpg" alt="ImagenDerechosUsuarios">
         <p>
             Los derechos de los usuarios en la <strong>Proteccion de datos</strong> permiten que las personas tengan mayor control sobres
@@ -160,6 +210,11 @@
             incorrecta o incluso solicitar que sus datos sena eliminados. Estos derechos buscan garantizar la privacidad de las personas y
             asegurar que las empresas y organizaciones utilicen la informacion personal de m,anera responsable y transparente.
         </p>
+=======
+        <div class="derechoContenido">
+        <img src="DerechosUsuarios.jpg" class="imagenDerechos" alt="ImagenDerechosUsuarios">
+        <div class="listaDerechos">
+>>>>>>> origin/feature-css
         <h3>Derechos sobre los datos personales</h3>
         <ul>
             <li><Strong>Derecho de acceso:</Strong> Permite a las personas saber que datos personales tiene una empresa u organizaciones
@@ -173,10 +228,20 @@
             <li><strong>Derecho de oposicion:</strong> Permite al usuario oponerse al uso de sus a datos personales para ciertos fines, como marketing
             o la publicidad.</li>
         </ul>
+        </div>
+        </div>
+        <p>
+            Los derechos de los usuarios en la <strong>Proteccion de datos</strong> permiten que las personas tengan mayor control sobres
+            su informacion personal. Gracias a normativas como <strong>El Reglamento General de Proteccion de Datos(GDPR)</strong>
+            y otras leyes de proteccion de datos, los cuidadanos pueden conocer como se utilizan sus datos, corregir informacion 
+            incorrecta o incluso solicitar que sus datos sena eliminados. Estos derechos buscan garantizar la privacidad de las personas y
+            asegurar que las empresas y organizaciones utilicen la informacion personal de m,anera responsable y transparente.
+        </p>
+        
         <p>Estos derechos permiten que las personas tengan mayor control sobre su informacion personal y aseguran que las empresas respeten la privacidad de los usuarios.</p>
     </section>
 
-    <section>
+    <section id="importancia">
         <h2>Importancia de la proteccion de Datos</h2>
         <p>La <strong>Proteccion de datos personales</strong> es fundamental en la actualidad, especialmente en un mundo donde gran parte de nuestra
         actividades se realizan por medio del internet. Cada dia compartimos informacion personal por medio de diferentes sitios web, aplicaciones, redes sociales, entre ellos.
@@ -187,21 +252,25 @@
             los datos sin consentimiento y con fines no autorizados.
         </p>
     </section>
-
-    <section>
+   <div></div>
+   <div class="bloqueConclu">
+    <section id="conclusion">
         <h2>Conclusion</h2>
         <p>La <strong>Proteccion de datos personales</strong> es fundamental en la sociedad digital actual. A medidad que las personas utilizan mas servicios en linea y comparten
         informacion en internet, se vuelve cada vez mas importante garantizar que esos datos sean tratados de manera segura ya
          responsable. Normativas como el GDPR y la LOPD buscan proteger la privacidad de los usuarios y establer reglas para el uso de la informacion personal.
         </p>
     </section>
+    </div>
+</div>
 
-    <section>
-        <h2>Encuesta sobre el uso de datos personales</h2>
-        <p>Queremos reconocer tu opinion sobre como se manejan los datos personales en internet.
+    <section id="encuesta">
+        <h2 class="tituloEncuesta">Encuesta sobre el uso de datos personales</h2>
+        <p class="parafoEncuesta">Queremos reconocer tu opinion sobre como se manejan los datos personales en internet.
         </p>
+        <div class="encuestaContenedor">
+        <div class="formulario">
         <form>
-
             <label for="nombre">Nombre:</label><br>
             <input type="text" id="nombre" name="nombre"><br><br>
 
@@ -225,9 +294,24 @@
             <textarea name="comentario" id="comentario"></textarea><br><br>
 
             <button type="submit">Enviar respuesta</button>
-
-
         </form>
+        </div>
+        <div class="video">
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/SDw7JNFHQeY"
+        title="Proteccion de datos"
+        frameborder="0"
+        allowfullscreen>
+        </iframe>
+
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/3EjR4chho5k"
+        title="Proteccion de datos"
+        frameborder="0"
+        allowfullscreen>
+        </iframe>
+        </div>
+        </div>
     </section>
 
 
