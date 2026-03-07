@@ -264,3 +264,41 @@ button {
     font-family: 'Times New Roman', Times, serif;
     padding-left: 20px;
 }
+
+.formato {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.contenido-alt {
+    max-width: 500px;
+    background-color: rgb(228, 227, 227);
+    padding: 20px;
+
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.volver {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.volver a {
+    background-color: rgb(60, 71, 82);
+    text-decoration: none;   /* quita el subrayado */
+    color: white;            /* letra blanca */
+    border: 2px solid black; /* borde del botón */
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+}
+
+.volver a:hover {
+    transform: translateY(-3px);
+}
