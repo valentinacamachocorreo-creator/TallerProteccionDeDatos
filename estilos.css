@@ -1,15 +1,18 @@
-body{
+body {
     background-color: lightgray
 }
-nav{
-    border-top: 60px solid  rgb(60, 71, 82);
+
+nav {
+    border-top: 60px solid rgb(60, 71, 82);
     padding-top: 10px;
 }
-.barra{
+
+.barra {
     display: flex;
     align-items: center;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -17,28 +20,32 @@ nav{
     padding: 10px;
     margin-top: 1%;
 }
-.menu li a{
-     background-color: rgb(60, 71, 82);
-   text-decoration: none;
-   color:lightgray;
-   border: 2px solid black;
-   font-weight: bold;
-   padding: 10px 5px;
-   border-radius: 5px;
-   transition: 0.3;
-   display: inline-block;
+
+.menu li a {
+    background-color: rgb(60, 71, 82);
+    text-decoration: none;
+    color: lightgray;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 10px 5px;
+    border-radius: 5px;
+    transition: 0.3;
+    display: inline-block;
 }
-.menu li a:hover{
-    
-    transform: translateY(-10px) scale(1,1);
+
+.menu li a:hover {
+
+    transform: translateY(-10px) scale(1, 1);
 }
+
 .logo {
-    width: 120px;  
+    width: 120px;
     border: 3px solid white;
     border-radius: 15px;
     padding: 5px;
 }
-header{
+
+header {
     background-image: url(img/tituloFondo.jpg);
     background-size: cover;
     background-position: center;
@@ -52,54 +59,65 @@ header{
     font-size: 25px;
     margin-top: 1%;
 }
-.contenedor{
+
+.contenedor {
     width: 150%;
     width: 75%;
     margin-left: 10%;
 }
 
-h2{
+h2 {
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-bottom: 3px solid black;
     padding-bottom: 8px;
     margin-bottom: 20px;
 }
-ul{
+
+ul {
     padding-left: 20px;
 }
-li{
+
+li {
     margin-bottom: 8px;
 }
-h3, h4{
+
+h3,
+h4 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.imagenIntro{
+
+.imagenIntro {
     width: 640px;
-    border: 3px, solid  slategray;
+    border: 3px, solid slategray;
     border-radius: 10px;
-    box-shadow:0px 4px 10px black;
+    box-shadow: 0px 4px 10px black;
 }
-.bloqueInicio{
+
+.bloqueInicio {
     background-color: rgb(228, 227, 227);
     padding: 20px;
     margin: 30px;
     border-radius: 10px;
     border: 2px solid gray;
-   
+
 }
-.bloqueInicio p{
+
+.bloqueInicio p {
     font-size: 20px;
 }
-.bloqueSolo{
+
+.bloqueSolo {
     margin-left: -10%;
 }
-.introContenido{
+
+.introContenido {
     display: flex;
     gap: 30px;
     align-items: flex-start;
 }
-.resumenIntro{
+
+.resumenIntro {
     border: 2px solid black;
     background-color: rgb(255, 253, 253);
     padding: 15px;
@@ -107,11 +125,13 @@ h3, h4{
     width: 250;
     margin-top: 3%;
 }
-p{
+
+p {
     font-size: 18px;
-     line-height: 1.6;
+    line-height: 1.6;
 }
-.ejemEmpresas ul{
+
+.ejemEmpresas ul {
     display: flex;
     gap: 140px;
     align-items: center;
@@ -122,47 +142,8 @@ p{
     border-bottom: 4px double black;
     padding: 20px;
 }
-.bloqueGPDR{
-     background-color: rgb(228, 227, 227);
-    padding: 20px;
-    margin: 30px;
-    border-radius: 10px;
-    border: 2px solid gray;
-}
-.navNObarra{
-    border-top: none;
-}
-h4{
-    font-size: 30px;
-}
-.icono{
-    width: 120px;
-    height: auto;
-}
-.icono:hover{
-    transform: translateY(-10px) scale(1,1);
-}
-.derechoContenido{
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
-    margin-top: 20px;
-}
-.imagenDerechos{
-    width: 1000px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    margin-top: 3%;
-}
-.listaDerechos{
-    max-width: 500px;
-     background-color: rgb(228, 227, 227);
-    padding: 20px;
-   
-    border-radius: 10px;
-    border: 2px solid gray;
-}
-.bloqueConclu{
+
+.bloqueGPDR {
     background-color: rgb(228, 227, 227);
     padding: 20px;
     margin: 30px;
@@ -170,8 +151,56 @@ h4{
     border: 2px solid gray;
 }
 
-.formulario{
-   
+.navNObarra {
+    border-top: none;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.icono {
+    width: 120px;
+    height: auto;
+}
+
+.icono:hover {
+    transform: translateY(-10px) scale(1, 1);
+}
+
+.derechoContenido {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.imagenDerechos {
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 3%;
+}
+
+.listaDerechos {
+    max-width: 500px;
+    background-color: rgb(228, 227, 227);
+    padding: 20px;
+
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.bloqueConclu {
+    background-color: rgb(228, 227, 227);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.formulario {
+
     max-width: 600px;
     margin: 40px;
     padding: 30px;
@@ -179,27 +208,59 @@ h4{
     border-radius: 10px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
 }
-#encuesta{
-     background-color:  rgb(60, 71, 82);
-     padding: 20px;
-     margin: 10px;
-     border-radius: 10px;
+
+#encuesta {
+    background-color: rgb(60, 71, 82);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
 }
-.tituloEncuesta, .parafoEncuesta{
-    color:lightgray;
+
+.tituloEncuesta,
+.parafoEncuesta {
+    color: lightgray;
 }
- button{
+
+button {
     cursor: pointer;
- }
- .encuestaContenedor{
+}
+
+.encuestaContenedor {
     display: flex;
     gap: 40px;
     align-items: flex-start;
-    
- }
- .video iframe{
-      border-radius: 10px;
-      margin-bottom: 20px;
-      
- }
 
+}
+
+.video iframe {
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.encabezado {
+    text-align: center;
+}
+
+.contenedor-des {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+}
+
+.desarrollador-miguel {
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 20px;
+    border-right: 2px solid black;
+    /* línea vertical */
+}
+
+.desarrollador-valentina {
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
